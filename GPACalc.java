@@ -220,7 +220,7 @@ class Prompt {
             if (str.length() == 1 &&
                     (str.equalsIgnoreCase("A") || str.equalsIgnoreCase("B") ||
                             str.equalsIgnoreCase("C") || str.equalsIgnoreCase("D") ||
-                            str.equalsIgnoreCase("Y") || str.equalsIgnoreCase("N"))) {
+                            str.equalsIgnoreCase("F") || str.equalsIgnoreCase("Y") || str.equalsIgnoreCase("N"))) {
                 found = true;
                 input = str.charAt(0);
             }
